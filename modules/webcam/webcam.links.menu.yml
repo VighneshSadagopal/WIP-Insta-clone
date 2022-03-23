@@ -1,0 +1,13 @@
+webcam.webcam:
+  title: capture
+  description: ""
+  route_name: webcam.capture
+  menu_name: main
+  options:
+    attributes:
+      class:
+        - use-ajax
+      data-dialog-type:
+        - modal
+      data-dialog-options:
+        - Json::encode(['width' => 400])
